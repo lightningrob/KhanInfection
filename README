@@ -1,0 +1,11 @@
+KhanInfection
+=============
+
+To run:
+(assumes Java 1.7 or later installed in $JAVA_HOME)
+Example of total infection:
+$JAVA_HOME/bin/java -cp bin SiteInfection data/users.txt Carol
+
+Example of limited infection:
+$JAVA_HOME/bin/java -cp bin SiteInfection data/users.txt Carol 5
+$JAVA_HOME/bin/java -cp bin SiteInfection data/users.txt Cindy 15
